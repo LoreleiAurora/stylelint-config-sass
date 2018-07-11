@@ -1,0 +1,18 @@
+language: node_js
+
+cache:
+  directories:
+    - ~/.npm
+
+node_js:
+  - 'node'
+
+before_install:
+  - npm i -g npm@latest
+
+script:
+  - npx semantic-release
+
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
