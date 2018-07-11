@@ -1,0 +1,39 @@
+{
+  "name": "@l5i/stylelint-config-sass",
+  "version": "1.0.0",
+  "description": "Sass config for stylelint based on the config used by twitter bootstrap.",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "sass"
+  ],
+  "author": {
+    "name": "Lorelei Aurora",
+    "email": "iam@l5i.me",
+    "url": "https://l5i.me/"
+  },
+  "contributors": [
+    "The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LoreleiAurora/stylelint-config-sass.git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^0.8.1",
+    "stylelint-scss": "^3.1.3"
+  },
+  "devDependencies": {
+    "stylelint": "^8.3.0 || ^9.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^8.3.0 || ^9.0.0"
+  }
+}
